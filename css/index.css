@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+/* general */
+* {
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper,
+.footer-container {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid black;
+}
+
+label {
+  cursor: pointer;
+}
+
+/*Login & sökpatient */
+.form-inputs {
+  padding: 1em;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container button {
+  width: 100px;
+  margin: 0 auto;
+}
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.login-container input,
+.login-container select {
+  display: inline-flex;
+  border-radius: 5px;
+  width: 50%;
+  margin: 10px 0;
+}
+
+
+/* homepage */
+.homepage-button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.homepage-button-container>* {
+  border: 2px solid black;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 10px;
+
+}
+
+
+
+
+/* footer */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+
+/* journal  */
+
+.journal-notes-container,
+.journal-add-notes-container {
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.journal-add-notes-container>* {
+  margin: 50px 0;
+}
+
+.journal-doctor-signed {
+  float: right;
+  margin: 0;
+}
+
+/* recept */
+
+.recept-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.recept-container {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+}
+
+.recept-left-side {
+  grid-column: 1 / 8;
+}
+
+
+.temporary-recept-box {
+  width: 100%;
+  height: 250px;
+  background-color: lightgrey;
+}
+
+.recept-right-side {
+  grid-column: 9 / 13;
+}
+
+.beautiful-face {
+  width: 80%;
+  height: 150px;
+  background-color: lightgrey;
+}
+
+
+/* feedback */
+
+.klagomal-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.klagomal-container>* {
+  margin: 5px 0;
+}
+
+.klagomal-container input {
+  margin: 0 auto 0 0;
+}
+
+
+/* diabetes dagbok */
+.diabetesdagbok-container {
+  padding: 1em;
+}
+
+.diabetesdagbok-first-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px auto;
+}
+
+
+textarea {
+  resize: none;
+}
+
+.temporary-message-box {
+  width: 80%;
+  margin: 30px auto;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+.get-message-button {
+  margin: 0 auto;
+}
+
+.diabetesdagbok-fourth-section-radio-buttons {
+  display: inline-grid;
+
+}
+
+.diabetesdagbok-fifth-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.diabetesdagbok-fifth-section>* {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+}
+
+.diabetesdagbok-fifth-section>*>* {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.diabetesdagbok-form-button {
+  display: flex;
+  margin: 10px auto;
+}
+
+/* klagomål*/
+.klagomal-rating-system {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.klagomal-rating-system-item {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personlig-bedomning {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* profil */
+
+.profil-section-one,
+.profil-section-two,
+.profil-section-three {
+  padding: 2em;
+}
+
+.profil-section-one {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.profil-section-one-left-side {
+  grid-column: 1 / 5;
+}
+
+.profil-section-one-right-side {
+  grid-column: 6 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.patient-information-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.temporary-profile-picture {
+  width: 80%;
+  height: 250px;
+  background-color: lightgrey;
+}
+
+.profil-section-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* boka  */
+
+
+.boka-container {
+  padding: 2em;
+}
+
+.boka-container>* {
+  margin: 0 0 50px 0;
+}
+
+.patientrecept-container {
+  text-align: center;
+}
+
+.patientrecept-section-wrapper {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.patientrecept-left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.patientrecept-left-side>* {
+  margin: 20px 0;
+}
+
+td,
+th,
+table {
+  padding: 0.5em;
+  border: 1px solid black;
+}

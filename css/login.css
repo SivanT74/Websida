@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input:hover {
+    background-color: #ddd;
+}
+.hospital-logo {
+  display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100px;
+}
+select {
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+}
+option {
+    color: #888;
+    font-size: 14px;
+    padding: 8px;
+}
